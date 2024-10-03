@@ -1,0 +1,63 @@
+html,
+body,
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.hide {
+	display: none;
+}
+
+.color-orange-red {
+	color: orangered;
+}
+
+.amplify-liveness-toast.amplify-liveness-toast--primary.amplify-liveness-toast--large {
+	font-size: 1rem;
+}
+
+.amplify-flex.liveness-detector-check {
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+}
+
+.test {
+	color: #00677a;
+	color: #2b9fb4;
+	color: #53cde3;
+	color: #6cdaed;
+	color: #a9f2ff;
+	color: #e1fbff;
+}
+
+.test {
+	color: #00677a;
+	color: #1a4f58;
+	color: #21393d;
+	color: #132424;
+	color: #192123;
+}
+
+.test {
+	color: #a1f7b0;
+	color: #f3c8c8;
+	color: #771e1e;
+	background: linear-gradient(
+		to bottom,
+		#ffffff,
+		#fcfdff,
+		#f7fcff,
+		#f1fbff,
+		#eafbff,
+		#e3faff,
+		#dcfaff,
+		#d4f9ff,
+		#caf7ff,
+		#bff6ff,
+		#b4f4ff,
+		#a9f2ff
+	);
+}

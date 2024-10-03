@@ -1,0 +1,10 @@
+.referenceNumber {
+	width: 90%;
+    text-align: center;
+    background-color: #1a4f58;
+    border-radius: 0.75rem;
+    font-size: 18px;
+    padding: 1rem 1rem;
+    margin-top: 2.5rem;
+	color: #E1FBFF;
+}

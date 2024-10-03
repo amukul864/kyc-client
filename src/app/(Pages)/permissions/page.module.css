@@ -1,0 +1,79 @@
+.script {
+  width: 90%;
+  text-align: center;
+  background-color: #1a4f58;
+  border-radius: 0.75rem;
+  font-size: 16px;
+  margin: 1rem 0;
+  padding: 1rem 1rem;
+  color: #e1fbff;
+}
+
+.controlButton {
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  margin-top: 1rem;
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Arial;
+  background-color: #e1fbff;
+  font-size: 16px;
+  font-weight: 600;
+  color: #21393d;
+  border: none;
+  width: 50%;
+}
+
+.heading {
+  font-size: x-large;
+  font-weight: 700;
+  color: #00677a;
+  margin-top: 2rem;
+}
+
+.permissionCard {
+  padding: 1rem 0.5rem;
+  margin: 1rem;
+  width: 90%;
+  text-align: center;
+  position: relative;
+  background: #21393d;
+  color: white;
+  font-size: 16px;
+  border-radius: 1rem;
+}
+
+.navigationButton {
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  margin-top: 1rem;
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Arial;
+  color: #e1fbff;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #21393d;
+  border: none;
+  width: 50%;
+}
+
+.image {
+  position: absolute;
+  bottom: 1.25rem;
+  right: 2rem;
+}
+
+.extra {
+  margin: 3rem 0;
+}
+
+.loading {
+  margin-top: 1.5rem;
+}

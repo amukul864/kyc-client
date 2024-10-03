@@ -1,0 +1,94 @@
+.controlButton {
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Arial;
+  color: #e1fbff;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #21393d;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  width: 40%;
+  margin-bottom: 1rem;
+}
+
+.heading {
+  font-size: x-large;
+  font-weight: 700;
+  color: #00677a;
+  margin-top: 0.5rem;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  padding: 0 0.5rem;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.infoItem {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  font-size: 16px;
+  border: none;
+  color: #e1fbff;
+  background-color: #00677a;
+  border-radius: 0.5rem;
+  font-weight: 400;
+}
+
+.referenceNumber {
+  width: 90%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  font-size: 18px;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.personalInfo {
+  width: 95%;
+  margin: 0 0 1rem;
+  padding: 0.5rem 1rem 1rem;
+  background: #21393d;
+  color: white;
+  font-size: 16px;
+  border-radius: 1rem;
+}
+
+.detail {
+  margin-top: 0.5rem;
+}
+
+.label {
+  font-weight: 300;
+}
+
+.field {
+  background-color: #e1fbff;
+  color: #21393d;
+  padding: 0.5rem 0.75rem;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 0.25rem;
+  width: 100%;
+  font-size: 16px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+}

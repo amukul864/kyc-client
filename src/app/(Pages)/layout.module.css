@@ -1,0 +1,43 @@
+.pageLayout {
+  background: black;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.mainContainer {
+	min-height: 100vh;
+	max-width: 450px;
+	width: 100%;
+	background: linear-gradient(
+		to bottom,
+		#ffffff,
+		#fcfdff,
+		#f7fcff,
+		#f1fbff,
+		#eafbff,
+		#e3faff,
+		#dcfaff,
+		#d4f9ff,
+		#caf7ff,
+		#bff6ff,
+		#b4f4ff,
+		#a9f2ff
+	);
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.image {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,46 @@
+.referenceNumber {
+    width: 90%;
+    text-align: center;
+    background-color: #1a4f58;
+    border-radius: 0.75rem;
+    font-size: 18px;
+    padding: 1rem 1rem;
+    margin-top: 2.5rem;
+	color: #E1FBFF;
+}
+
+.controlButton {
+	-webkit-border-radius: 12;
+	-moz-border-radius: 12;
+	border-radius: 12px;
+	font-family: Arial;
+	background: #53cde3;
+	font-size: 18px;
+	font-weight: 600;
+	color: #132424;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+    width: 35%;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.controlButton:disabled {
+	background-color: white;
+	color: gray;
+	border: 2px solid gray;
+	cursor: no-drop;
+}
+
+.heading {
+    font-size: x-large;
+    font-weight: 700;
+    margin-top: 2rem;
+	color: #00677a;
+}
+
+.loading {
+	margin-top: 1.5rem;
+}

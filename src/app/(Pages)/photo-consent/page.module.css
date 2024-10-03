@@ -1,0 +1,114 @@
+.script {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 90%;
+	padding: 0.5rem;
+	margin-top: 1rem;
+	font-size: 16px;
+	border: none;
+	color: #E1FBFF;
+    background-color: #00677a;
+	border-radius: 0.5rem;
+	font-weight: 400;
+}
+
+.controlButton {
+	-webkit-border-radius: 12;
+	-moz-border-radius: 12;
+	border-radius: 12px;
+	font-family: Arial;
+	background-color: #E1FBFF;
+	font-size: 16px;
+	font-weight: 600;
+	color: #21393d;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+	text-align: center;
+    width: 85%;
+	margin-bottom: 1rem;
+}
+
+.heading {
+	font-size: x-large;
+	font-weight: 700;
+	color: #00677a;
+	margin-top: 2rem;
+}
+
+.permissionCard {
+	width: 90%;
+	margin: 1rem;
+	padding: 1rem;
+	background: #21393d;
+	color: white;
+	font-size: 16px;
+	border-radius: 1rem;
+	text-align: center;
+	position: relative;
+}
+
+.navigationButton {
+	-webkit-border-radius: 12;
+	-moz-border-radius: 12;
+	border-radius: 12px;
+	font-family: Arial;
+	color: #E1FBFF;
+	font-size: 18px;
+	font-weight: 600;
+	background-color: #21393d;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+	text-align: center;
+    width: 45%;
+	margin-bottom: 1rem;
+}
+
+.navigationButton:hover {
+	background: #3cb0fd;
+	text-decoration: none;
+}
+
+.image {
+	margin-bottom: 1rem;
+	width: 280px;
+	height: 210px;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	width: 100%;
+}
+
+.referenceNumber {
+	width: 90%;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 1rem;
+	font-size: 18px;
+	padding: 0.5rem 1rem;
+	color: #ffffff;
+	margin-bottom: 0.5rem;
+}
+
+.recordVideo {
+	width: 280px;
+	height: 210px;
+}
+
+.playVideo {
+	width: 280px;
+	height: 210px;
+	background-color: rgb(90, 90, 90, 0.7);
+}
+
+.greenBack {
+	background-color: green;
+}
+
+.redBack {
+	background-color: red;
+}

@@ -1,0 +1,264 @@
+.controlButton {
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Arial;
+  background-color: #e1fbff;
+  color: #21393d;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 1rem;
+}
+
+.navigationButton {
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Arial;
+  color: #e1fbff;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #21393d;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+.heading {
+  font-size: x-large;
+  font-weight: 700;
+  color: #00677a;
+  margin-top: 0.5rem;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  padding: 0 0.5rem;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.infoItem {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem;
+  font-size: 16px;
+  border: none;
+  color: #e1fbff;
+  background-color: #00677a;
+  border-radius: 0.5rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.referenceNumber {
+  width: 90%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  font-size: 18px;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.personalInfo {
+  width: 95%;
+  background: rgb(0, 0, 0, 0.5);
+  padding: 1rem 1rem 1rem;
+  color: white;
+  font-size: 16px;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.detail {
+  margin-top: 0.5rem;
+}
+
+.label {
+  font-weight: 500;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.field {
+  background-color: white;
+  color: black;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  margin-top: 0.25rem;
+  overflow-y: scroll;
+  height: 150px;
+}
+
+.field::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+
+.field::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  align-items: center;
+  padding: 0.25rem;
+}
+
+.permissionCard {
+  padding: 1rem 0.5rem;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 1rem 0;
+  padding: 1rem 1rem 1rem;
+  background: #21393d;
+  color: white;
+  font-size: 16px;
+  border-radius: 1rem;
+}
+
+.image {
+  margin-bottom: 1rem;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  align-items: center;
+}
+
+.detected {
+  width: 20%;
+  background-color: rgb(227, 227, 227);
+  border: 1px solid black;
+  padding: 0.25rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.notDetected {
+  width: 20%;
+  background-color: white;
+  border: 1px solid rgb(127, 127, 127);
+  color: rgb(127, 127, 127);
+  padding: 0.25rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.recordVideo {
+  width: 280px;
+  height: 210px;
+  background: rgb(127, 127, 127);
+}
+
+.timeElapsed {
+  position: absolute;
+  bottom: 0.25rem;
+  right: 0.25rem;
+  width: 7rem;
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Arial;
+  color: #e1fbff;
+  background-color: #2b9fb4;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.warning {
+  width: 100%;
+  text-align: center;
+  font-size: large;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: #a1f7b0;
+}
+
+.formField {
+  color: #21393d;
+  font-weight: 500;
+  width: 70%;
+}
+
+.form {
+  width: 95%;
+  background-color: #e1fbff;
+  border-radius: 8px;
+  padding: 4px 8px;
+  margin: 0.25rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formButton {
+  display: flex;
+  width: 25%;
+  border: 3px solid #21393d;
+  border-radius: 4px;
+  cursor: pointer;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 2px 4px;
+}
+
+.redButton {
+  border: 3px solid #3d2121;
+  justify-content: flex-start;
+}
+
+.toggleRed {
+  border: none;
+  border-radius: 11px;
+  background-color: #3d2121;
+  width: 55%;
+  height: 22px;
+  text-align: center;
+}
+
+.toggleGreen {
+	border: none;
+	border-radius: 11px;
+	background-color: #21393d;
+	width: 55%;
+	height: 22px;
+	text-align: center;
+}

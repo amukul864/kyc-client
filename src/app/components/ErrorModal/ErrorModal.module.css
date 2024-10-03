@@ -1,0 +1,117 @@
+.modal {
+  position: fixed;
+  top: 0;
+  color: red;
+  z-index: 1000;
+  max-width: 480px;
+  width: 100%;
+  font-size: 800;
+  height: 100vh;
+  background: rgb(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 12rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.item {
+  width: 95%;
+  padding: 0.5rem;
+  font-size: 18px;
+  border: none;
+  color: #00677a;
+  border-radius: 0.5rem;
+  font-weight: 800;
+  margin-bottom: 0.75rem;
+}
+
+.controlButton {
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Arial;
+  color: #cbcbcb;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 1rem;
+  width: 40%;
+  overflow: hidden;
+}
+
+.controlButton2 {
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Arial;
+  background-color: #cbcbcb;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 1rem;
+  width: 40%;
+  overflow: hidden;
+}
+
+.card {
+  background: #fff;
+  text-align: center;
+  width: 85%;
+  padding: 1rem 0.5rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  color: #2b9fb4;
+  border: 2px solid #2b9fb4;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.75rem;
+  width: 95%;
+  font-size: large;
+  text-align: left;
+}
+
+.label {
+  color: #21393d;
+  padding: 0.5rem 0.75rem;
+  border: none;
+  border-radius: 0.5rem;
+  width: 95%;
+  font-size: 14px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.input::placeholder {
+  color: #e1fbff;
+  text-align: center;
+  text-align: left;
+}
+
+.redText {
+  color: #771e1e;
+}
+
+.flex {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
